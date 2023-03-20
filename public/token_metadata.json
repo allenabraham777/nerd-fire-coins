@@ -1,0 +1,6 @@
+{
+  "name": "Nerd Fire Coin",
+  "symbol": "NFC",
+  "description": "Sample test tokens created over solana devnet",
+  "image": "https://nerd-fire-coins.vercel.app/logo.png"
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Nerd Fire Coin", 
+  "name": "Nerd Fire Coins", 
   "symbol": "NFC",
-  "uri": "TOKEN_URI",
+  "uri": "https://nerd-fire-coins.vercel.app/token_metadata.json",
   "sellerFeeBasisPoints": 0,
   "creators": null,
   "collection": null,
