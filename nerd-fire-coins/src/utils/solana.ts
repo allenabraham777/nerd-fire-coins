@@ -1,7 +1,5 @@
-import { LAMPORTS_PER_SOL, Connection, PublicKey } from "@solana/web3.js";
-
-const DEVNET_API = "https://api.devnet.solana.com";
-const solanaConnection = new Connection(DEVNET_API);
+import { LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
+import { solanaConnection } from '@/utils/solana-connection';
 
 export const airdrop = async (walletAddress: String) => {
   const publicKey = new PublicKey(walletAddress);
