@@ -7,7 +7,7 @@ const Navbar = () => {
       <span>Nerd Fire Coins</span>
       <div className="text-lg flex space-x-10">
         <Link href="/">Home</Link>
-        <Link href="/faucet">Faucet</Link>
+        <Link href="/solana-faucet">Faucet</Link>
       </div>
     </nav>
   );
