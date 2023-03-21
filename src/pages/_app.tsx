@@ -16,6 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
         <Navbar />
       </div>
       <Component {...pageProps} />
+      <div className="fixed bottom-10 right-10 w-20 rounded-full overflow-hidden border-4 border-[#0090C1]">
+        <a href="https://github.com/allenabraham777/nerd-fire-coins" target="_blank" rel="noopener noreferrer">
+          <img src="https://github.com/github.png" />
+        </a>
+      </div>
     </div>
   </>;
 }

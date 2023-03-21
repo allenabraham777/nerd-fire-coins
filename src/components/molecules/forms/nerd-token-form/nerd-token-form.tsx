@@ -12,7 +12,7 @@ type Props = {
 const NerdTokenForm = ({ walletAddress, setwalletAddress, amount, setAmount, onSubmit, message }: Props) => {
   return (
     <div className='flex flex-col gap-20 w-[100%]'>
-      <h1 className="text-5xl text-center"> Nerd Fire Coins Faucet</h1>
+      <h1 className="text-5xl text-center text-[#20FC8F]"> Nerd Fire Coins Faucet</h1>
       <div className="flex flex-col gap-8 text-xl">
         <input
           className="p-4 rounded-lg border bg-transparent"
